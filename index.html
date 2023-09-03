@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InPocket To-Do-List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="bigContainer">
+      <div id="logo-image">
+        <a href="index.html"
+          ><img
+            src="InPocket-new-logo.webp"
+            alt="InPocket Logo"
+            width="280px"
+            height="150px"
+        /></a>
+      </div>
+      <div id="navi-icons">
+        <ul>
+          <li>
+            <i class="fa-solid fa-house fa-2xl" style="color: #1c407d"></i>
+          </li>
+          <li>
+            <i
+              class="fa-solid fa-circle-down fa-2xl"
+              style="color: #1c407d"
+            ></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-bars fa-2xl" style="color: #1c407d"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="to-do-list">
+      <div id="to-do-list-container">
+        <div>
+          <h1>Supermarket Buying List</h1>
+          <form id="header-form">
+            <input
+              type="text"
+              placeholder="Add something to your list..."
+              id="form-input"
+            />
+            <input type="submit" id="submit-btn" value="Add" />
+          </form>
+        </div>
+        <div>
+          <div class="added-list">
+            <div id="list-item">
+              <!--<div class="items">
+                <div><button class ="uncheck">Uncheck</div>
+                <div class="outputList">
+                    <input type="text" class="output" value="" readonly>
+                </div>
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </div>
+            </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="come-back">
+        <div id="come-back-text">Back to List Collection</div>
+        <div id="come-back-icon">
+          <i class="fa-solid fa-arrow-right fa-xl" style="color: #1c407d"></i>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="copyright"><p>&copy 2023 InPocket To-Do-List</p></div>
+      <div class="footer-container">
+        <div class="footer-social">
+          <p>Meet our team on social media</p>
+          <ul>
+            <li>
+              <a href="#" class="fa fa-facebook" style="color: #1c407d"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-twitter" style="color: #1c407d"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-github" style="color: #1c407d"></a>
+            </li>
+            <li>
+              <a href="#" class="fa fa-linkedin" style="color: #1c407d"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/dbf8a03f8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
